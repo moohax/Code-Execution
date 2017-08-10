@@ -21,5 +21,5 @@ C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1706.1862.0_x64__8we
 ## Examples
 ```
 C:\Windows\System32
-λ ScriptRunner.exe -appvscript "\\fileserver\public\Will\calc.cmd"
+λ ScriptRunner.exe -appvscript "\\fileserver\calc.cmd"
 λ ScriptRunner.exe -appvscript powershell.exe -args
