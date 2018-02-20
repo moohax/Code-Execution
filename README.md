@@ -32,7 +32,6 @@ PresentationHost.exe file://c:\windows\system32\calc.exe
 ## COM
 ```Powershell
 $a = [Type]::GetTypeFromCLSID("02BCC737-B171-4746-94C9-0D8A0B2C0089"); $b = [Activator]::CreateInstance($a)
-$a = [Type]::GetTypeFromCLSID("C4D2D8E0-D1DD-11CE-940F-008029004347"); $b = [Activator]::CreateInstance($a)
 $a = [Type]::GetTypeFromCLSID("F935DC22-1CF0-11D0-ADB9-00C04FD58A0B"); $b = [Activator]::CreateInstance($a)
 $a = [Type]::GetTypeFromCLSID("276FBFC1-D71F-4619-A7C1-0181077EE283"); $b = [Activator]::CreateInstance($a)
 $a = [Type]::GetTypeFromCLSID("0F87369F-A4E5-4CFC-BD3E-73E6154572DD"); $b = [Activator]::CreateInstance($a)
