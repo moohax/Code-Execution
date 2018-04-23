@@ -43,9 +43,6 @@ $a = [Type]::GetTypeFromCLSID("0F87369F-A4E5-4CFC-BD3E-73E6154572DD"); $b = [Act
 #Shell Automation Service
 $a = [Type]::GetTypeFromCLSID("13709620-C279-11CE-A49E-444553540000"); $b = [Activator]::CreateInstance($a); $b | gm
 
-#Application Activator
-$a = [Type]::GetTypeFromCLSID("1D09B407-A97F-378A-ACCB-82CA0082F9F3"); $b = [Activator]::CreateInstance($a); $b | gm
-
 #CScript Dialog
 $a = [Type]::GetTypeFromCLSID("1F3D8AA5-9EBF-4EE4-85C2-EA40379AEDE8"); $b = [Activator]::CreateInstance($a); $b | gm
 
