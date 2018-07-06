@@ -32,5 +32,5 @@ PresentationHost.exe file://c:\windows\system32\calc.exe
 ## command processor
 ```
 reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /d "start calc.exe"
-open a command prompt...
+open a command prompt and calculate.
 ```
